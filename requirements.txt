@@ -1,0 +1,6 @@
+mock==5.1.0
+numpy==2.0.1
+psychrnn==1.0.0
+pytest==8.3.2
+pytest_mock==3.14.0
+tensorflow==2.17.0
