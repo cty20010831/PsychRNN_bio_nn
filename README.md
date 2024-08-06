@@ -26,13 +26,16 @@ Start with [Hello World](https://psychrnn.readthedocs.io/en/latest/notebooks/Min
 ### Create a clean virtual environment
 ```
 # Create a virtual environment
-python -m venv venv
+python -m venv .venv
 
 # Activate the environment
-source venv/bin/activate
+source .venv/bin/activate
 
 # Deactivate base conda environment
 conda deactivate
+
+# Install packages
+pip install setuptools
 ```
 
 ### Dependencies

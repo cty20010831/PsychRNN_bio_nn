@@ -6,4 +6,4 @@ PsychRNN.egg-info/
 build/
 dist/
 docs/_build/
-venv
+.venv
