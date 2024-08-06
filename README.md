@@ -3,14 +3,6 @@
 [![codecov](https://codecov.io/gh/murraylab/PsychRNN/branch/master/graph/badge.svg)](https://codecov.io/gh/murraylab/PsychRNN)
 [![Documentation Status](https://readthedocs.org/projects/psychrnn/badge/?version=latest)](https://psychrnn.readthedocs.io/en/latest/?badge=latest)
 
-**Paper:**
-
-Ehrlich, D. B.<sup>\*</sup>, Stone, J. T.<sup>\*</sup>, Brandfonbrener, D., Atanasov, A., & Murray, J. D. (2021). PsychRNN: An Accessible and Flexible Python Package for Training Recurrent Neural Network Models on Cognitive Tasks. *ENeuro, 8*(1). [\[DOI\]](https://doi.org/10.1523/ENEURO.0427-20.2020)
-
-**Presentation:**
-
-Prefer listening to a 15 minute talk to see if PsychRNN is for you? Check out our [talk at Neuromatch 3.0](https://www.youtube.com/watch?v=OY_Ix-QwB4Y).
-
 ## Overview
 
 Full documentation is available at [psychrnn.readthedocs.io](https://psychrnn.readthedocs.io/).
@@ -30,6 +22,18 @@ Contact: psychrnn@gmail.com
 Start with [Hello World](https://psychrnn.readthedocs.io/en/latest/notebooks/Minimal_Example.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/murraylab/PsychRNN/blob/master/docs/notebooks/Minimal_Example.ipynb) to get a quick sense of what PsychRNN does. Then go through the [Simple Example](https://psychrnn.readthedocs.io/en/latest/notebooks/PerceptualDiscrimination.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/murraylab/PsychRNN/blob/master/docs/notebooks/PerceptualDiscrimination.ipynb) to get a feel for how to customize PsychRNN. The rest of [Getting Started](https://psychrnn.readthedocs.io/en/quickstart.html) will help guide you through using available features, defining your own task, and even defining your own model.
 
 ## Install
+
+### Create a clean virtual environment
+```
+# Create a virtual environment
+python -m venv venv
+
+# Activate the environment
+source venv/bin/activate
+
+# Deactivate base conda environment
+conda deactivate
+```
 
 ### Dependencies
 
@@ -61,27 +65,3 @@ Alternatively, you can download and extract the source files from the [GitHub re
         cd PsychRNN
         python setup.py install
 
-## Contributing
-
-Please report bugs to https://github.com/murraylab/psychrnn/issues.  This
-includes any problems with the documentation.  Fixes (in the form of
-pull requests) for bugs are greatly appreciated.
-
-Feature requests are welcome but may or may not be accepted due to limited
-resources. If you implement the feature yourself we are open
-to accepting it in PsychRNN.  If you implement a new feature in PsychRNN,
-please do the following before submitting a pull request on GitHub:
-
-- Make sure your code is clean and well commented
-- If appropriate, update the official documentation in the ``docs/``
-  directory
-- Write unit tests and optionally integration tests for your new
-  feature in the ``tests/`` folder.
-- Ensure all existing tests pass (``pytest`` returns without
-  error)
-
-For all other questions or comments, contact psychrnn@gmail.com.
-
-## License
-
-All code is available under the MIT license. See LICENSE for more information.
